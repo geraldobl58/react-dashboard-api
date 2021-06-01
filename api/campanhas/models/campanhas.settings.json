@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "campanhas",
+  "info": {
+    "name": "campanhas",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nome": {
+      "type": "string"
+    },
+    "cliente": {
+      "type": "string"
+    },
+    "bandeira": {
+      "type": "integer"
+    }
+  }
+}
