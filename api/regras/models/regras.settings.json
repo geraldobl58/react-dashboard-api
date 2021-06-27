@@ -1,8 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "campanhas",
+  "collectionName": "regras",
   "info": {
-    "name": "campanhas",
+    "name": "Regras",
     "description": ""
   },
   "options": {
@@ -16,13 +16,16 @@
       "type": "string",
       "required": true
     },
-    "cliente": {
-      "type": "string",
-      "required": true
+    "data_inicio": {
+      "required": false,
+      "type": "date"
     },
-    "bandeira": {
-      "required": true,
-      "type": "integer"
+    "data_fim": {
+      "type": "date",
+      "required": false
+    },
+    "campanha": {
+      "type": "string"
     }
   }
 }
