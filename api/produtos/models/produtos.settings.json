@@ -11,7 +11,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "nome": {
+    "nomeProduto": {
       "type": "string"
     }
   }
