@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "produtos",
+  "collectionName": "categorias",
   "info": {
-    "name": "Produtos",
-    "description": ""
+    "name": "Categorias"
   },
   "options": {
     "increments": true,
@@ -12,14 +11,8 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "nomeProduto": {
+    "nomeCategoria": {
       "type": "string"
-    },
-    "precoVendaInicial": {
-      "type": "decimal"
-    },
-    "precoVendaFinal": {
-      "type": "decimal"
     }
   }
 }

@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "produtos",
+  "collectionName": "marcas",
   "info": {
-    "name": "Produtos",
-    "description": ""
+    "name": "Marcas"
   },
   "options": {
     "increments": true,
@@ -12,14 +11,8 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "nomeProduto": {
+    "nomeMarca": {
       "type": "string"
-    },
-    "precoVendaInicial": {
-      "type": "decimal"
-    },
-    "precoVendaFinal": {
-      "type": "decimal"
     }
   }
 }
